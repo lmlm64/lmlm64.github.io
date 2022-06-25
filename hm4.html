@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>联系我</title>
+    <link rel="stylesheet" href="./hm4.css">
+<body>
+    <nav><!--导航区-->
+        <div class="inner">
+            <a href="./hm1.html">主页</a>
+            <a href="./hm3.html">社团经历</a>
+            <a href="./hm2.html">兴趣爱好</a>
+            <a href="./hm4.html">联系我</a>
+        </div>
+    </nav>
+
+    <section id="container_1"><!--第一个内容区分为两个板块，左边图片，右边文字，两者高度相同并列显示-->
+        <div class="inner"><!--使用公共类innner，用来使内容区宽度固定，居中，分为左右两个部分-->
+            <div id="left">
+            <div id="left_one"> 
+                <img src="../images/QQ图片20220624143332.jpg" alt="">
+            </div>
+            </div>
+            <div id="right">
+            <div id="right_one">
+                <p id="wenzi1">
+                    <br>
+                    <br>
+                    最后介绍一下的我家乡。我来自安徽的一个小城市，或许你不曾听说过她，但你一定听过这句话：橘生淮南则为橘，生于淮北则为枳。
+                    没错！我来自安徽淮北，我的家乡历史悠久，物产丰富，风景优美，名人辈出，是个富饶美丽的地方。
+                    如果你有机会来到我的家乡，哈哈，我很乐意做你的向导。
+                </p>    
+            </div>
+        </div>
+    </section>
+
+    <section id="zhongjian"><!--第二块文字内容区-->
+        <div class="inner">
+            <div class="zhongjian">
+                <p id="zhongjian">
+                    做人就要像小饼干一样<br>
+                    干干脆脆 可盐可甜<br>
+                    如果你想联系我的话<br>
+                    请填写你的信息<br>
+                    ↓<br>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <div id="111"><!--表单区域，通过表格来设置表单的样式-->
+        <div class="inner">
+            <div id="222">
+                    <div class="tableRow">
+                        <p> 姓名: </p>
+                        <p> <input type="text" name="name" value="" placeholder="" required> </p>
+                    </div>
+                    <div class="tableRow">
+                        <p> 性别: </p>
+                        <p>
+                            <input type="radio" name="beantype" value="男">男<br><!--性别的输入使用radio标签，有男女两个选项-->
+                            <input type="radio" name="beantype" value="女" checked> 
+                            女
+                        </p>
+                    </div>
+                    <div class="tableRow label">
+                        <p>你的生日: </p>
+                        <p> <input type="date" name="date"> </p><!--生日输入内容为日期格式-->
+                    </div>
+                    <div class="tableRow">
+                        <p> 家庭地址: </p>
+                        <p> <input type="text" name="家庭地址" value="" placeholder="" required> </p>
+                    </div>
+                    <div class="tableRow">
+                        <p> 邮箱: </p>
+                        <p> <input type="text" name="邮箱" value="" placeholder="" required> </p>
+                    </div>
+                    <div class="tableRow">
+                        <p> 电话: </p>
+                        <p> <input type="tel" name="phone" value="" placeholder="" required> </p>
+                    </div>
+                    <div class="tableRow">
+                        <p>留言: </p>
+                        <p>
+                            <textarea name="留言"></textarea>
+                        </p>
+                    </div>
+                    <div class="tableRow">
+                        <p></p>
+                        <p> <input type="submit" value="Order Now"> </p><!--对表单内容进行提交-->
+                    </div>
+                    </form>
+            </div>
+            </div>
+        </div>
+    <footer><!--页脚区-->
+        <div id="inner">
+            <p>
+              &copy; 2022, lmlm<br>
+              All designs of the web pages are LM original
+            </p>
+          </div>
+    </footer>
+    
+</body>
+</html>

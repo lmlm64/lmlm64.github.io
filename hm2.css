@@ -1,0 +1,151 @@
+body/*四个页面均使用相同的背景图片*/
+{
+    background-image: url(../images/318fbc91200295b5c7edcb5c2f3b65f442951a3229d9f-PMkHnm_fw658.jpg);
+    /*background-color: rgb(223, 206, 181);*/
+    margin:0;
+    padding:0;
+    font-family:     Verdana, Geneva, Arial, sans-serif;
+    font-size:18px;
+    line-height: 1.5;
+}
+nav
+{   
+    font-size: 45px;
+    font-weight: 200;
+    text-align:right;/*将导航区的文字靠右显示*/
+    height:55px;
+    background-color: rgb(243, 195, 99);
+}
+a
+{
+    font-size: 25px;
+    padding-right: 10px;/*设置导航区链接之间的距离*/
+    color:#9137aa;
+}
+div.inner/*公共类用以保证内容区大小固定，左右外边距自适应*/
+{
+    width:1500px;
+    margin-left:auto;
+    margin-right:auto;
+}
+section#konghang
+{
+    height:100px;
+}
+
+section#container_1
+{
+    height: 550px;
+    /*background-color: #e9e7dc;*/
+}
+
+section#container_1 div.inner div#cont_1_1/*第一个内容区的左边小内容区，设置为向左浮动*/
+{
+    width:480px;
+    height: 430px;
+    background-color:antiquewhite;
+    float:left;
+    border-top: 10px solid #85754d;
+    border-bottom: 10px solid #85754d;
+}
+ul/*将无序列表自带的样式清空*/
+{ 
+list-style: none; 
+}
+.box1/*无序列表类*/
+{ 
+width:656px;  
+height: 430px;   
+border-top: 10px solid #85754d;
+border-bottom: 10px solid #85754d;
+overflow:hidden;/*清除浮动元素*/
+}
+.box1 li
+{   
+width: 160px;   
+float: left;   /*设置无序列表的列表项向左浮动*/
+border-left:1px solid #fff;     
+transition:all 3s; /* 这里最后设置一下图片之间的切换时间 */   
+}
+
+.box1:hover li/*鼠标没有停留时，每个列表项图片的宽度为40px*/
+{   
+width:40px; 
+}  
+.box1 li:hover/*鼠标停留的列表项的宽度设置为640px*/
+{   
+width: 640px;  
+} 
+
+section#container_2
+{
+    height: 550px;
+    /*background-color: #e9e7dc;*/
+}
+.box2
+{ 
+margin-top: 20px;
+width:656px;  
+height: 430px;   
+border-top: 10px solid #85754d;
+border-bottom: 10px solid #85754d;
+float:right; /*设置无序列表2的列表项向右浮动*/
+overflow:hidden;
+}
+.box2 li
+{   
+width: 160px;   
+float: left;   
+border-left:1px solid #fff;      
+transition:all 3s; 
+}
+
+.box2:hover li{   
+width:40px; 
+}  
+.box2 li:hover
+{   
+width: 640px;  
+} 
+section#container_2{
+    height: 570px;
+    /*background-color: #e9e7dc;*/
+}
+
+section#container_2 div.inner div#cont_2_1/*第二个内容区的两个小内容区都向右浮动*/
+{
+    margin-top: 20px;
+    width:344px;
+    height: 430px;
+    background-color:antiquewhite;
+    float:right;
+    border-top: 10px solid #85754d;
+    border-bottom: 10px solid #85754d;
+}
+section#container_3/*第三个内容区的样式基本同第一个内容区的样式相同*/
+{
+    height: 550px;
+    /*background-color: #e9e7dc;*/
+}
+
+section#container_3 div.inner div#cont_3_1
+{
+    width:480px;
+    height: 430px;
+    background-color:antiquewhite;
+    float:left;
+    border-top: 10px solid #85754d;
+    border-bottom: 10px solid #85754d;
+}
+
+section#container_3 div.inner div#cont_3_2
+{
+    width:656px;
+    height:430px;
+    background-color: #e8e0cd;
+    float:left;
+    border-top: 10px solid #85754d;
+    border-bottom: 10px solid #85754d;
+   /* border-top: 4px solid #b89a53;
+    border-bottom: 4px solid #b89a53;*/
+}

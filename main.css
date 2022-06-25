@@ -1,0 +1,147 @@
+body
+{
+    background-image: url(../images/318fbc91200295b5c7edcb5c2f3b65f442951a3229d9f-PMkHnm_fw658.jpg);
+    margin:0;/*消除页面默认的margin和padding设置*/
+    padding:0;
+    font-family:     Verdana, Geneva, Arial, sans-serif;
+    font-size:18px;
+    line-height: 1.2;/*将行距设置为文字大小的1.5倍*/
+}
+#wenzi1
+{
+    font-size:120%;/*将文字1的大小设置为父元素的1.2倍*/
+    line-height: 1.2;
+}
+div.inner
+{
+    width:1000px;
+    margin-left:auto;/*设置innner左右边距为自适应*/
+    margin-right:auto;
+}
+section#topimg
+{
+    height:300px;
+    text-align: center;/*设置图片居中显示*/
+    background-image: url();
+}
+section#topimg div.innner p#renxiang
+{
+    border-top: 50px;
+    border-bottom: 50px;
+}
+nav
+{   
+    font-size: 45px;
+    font-weight: 200;
+    text-align: center;
+    height:55px;
+    background-color: rgb(243, 195, 99);
+}
+#welcome
+{
+    height: 100px;
+   /* background-image: url(../images/318fbc91200295b5c7edcb5c2f3b65f442951a3229d9f-PMkHnm_fw658.jpg);*/
+}
+section#welcome div.innner
+{
+    background-color: rgb(223, 206, 181);
+}
+
+section#container_1/*内容区1的高度为500px*/
+{
+    height: 500px;
+    /*background-color: #e9e7dc;*/
+}
+
+section#container_1 div.inner div#cont_1_1/*内容区1左边小内容区设置向左浮动*/
+{
+    width:656px;
+    height: 430px;
+    background-color:antiquewhite;
+    float:left;
+    border-top: 10px solid #85754d;
+    border-bottom: 10px solid #85754d;
+}
+
+section#container_1 div.inner div#cont_1_2/*内容区2右边小内容区也设置向左浮动，实现两个内容区的并列*/
+{
+    width:344px;
+    height:430px;
+    background-color: #e8e0cd;
+    float:left;
+    border-top: 10px solid #85754d;
+    border-bottom: 10px solid #85754d
+   /* border-top: 4px solid #b89a53;
+    border-bottom: 4px solid #b89a53;*/
+}
+section#container_2
+{
+    /*height: 276px;*/
+    background-color: #9137aa;
+}
+
+section#container_2 div.inner div#left/*内容区2的左内容区设置向左浮动，共有三个左边小内容区*/
+{
+    width:344px;
+   /* height: 272px;*/
+   ;
+    float:left;
+    border-top: 4px solid #85754d;
+}
+section#container_2 div.inner div#left div/*小内容区之间的边距为20px，左边小内容区与右边内容区的边距为10px*/
+{
+    width:334px;
+    height: 200px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    background-color: rgb(186, 184, 81);
+    float:left;
+    border-top: 4px solid #85754d;
+}
+section#container_2 div.inner div#right/*内容区2的右内容区设置向左浮动，共有三个右边小内容区*/
+{
+    width: 656px;
+    float:left;
+    border-top: 4px solid #85754d;
+}
+section#container_2 div.inner div#right div
+{
+    width:656px;
+    height:200px;
+    margin-bottom: 20px;
+    background-color: #e7c16a;
+    float:left;
+    border-top: 4px solid #b89a53;
+}
+a/*设置超链接的大小，右内边距和颜色*/
+{
+    font-size: 25px;
+    padding-right: 10px;
+    color:#9137aa;
+}
+h1/*设置标题1的样式为居中大小为middle，斜体*/
+{
+    text-align: center;
+    vertical-align: middle;
+    font-style: italic;
+    font-size: 60px;
+    font-weight: 200;
+}
+#rongyu
+{
+    font-size:16px;
+    line-height:1.3 ;
+}
+footer /*页脚区*/
+{
+    background-color: #675c47;
+    color:            #efe5d0;
+    text-align:       center;
+    padding:          5px;
+    margin:           20px;
+    width:100%;
+    height: 80px;
+    float:right;
+  }
+
+  

@@ -1,0 +1,131 @@
+body
+{
+    background-image: url(../images/318fbc91200295b5c7edcb5c2f3b65f442951a3229d9f-PMkHnm_fw658.jpg);
+    /*background-color: rgb(223, 206, 181);*/
+    margin:0;
+    padding:0;
+    font-family:     Verdana, Geneva, Arial, sans-serif;
+    font-size:18px;
+    line-height: 1.2;
+}
+nav
+{   
+    font-size: 45px;
+    font-weight: 200;
+    text-align: center;
+    height:55px;
+    background-color: rgb(243, 195, 99);
+}
+a
+{
+    font-size: 25px;
+    padding-right: 10px;
+    color:#9137aa;
+}
+div.inner
+{
+    width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+section#container_1/*第一个内容区的两个小内容区均设置向左浮动实现并列显示*/
+{
+    margin-top: 40px;
+}
+section#container_1 div.inner div#left div{
+    width:600px;
+    height: 400px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    background-color: rgb(186, 184, 81);
+    float:left;
+    border-top: 4px solid #85754d;
+}
+section#container_1 div.inner div#right div
+{
+    width:390px;
+    height:400px;
+    margin-bottom: 20px;
+    background-color: #e7c16a;
+    float:left;
+    border-top: 4px solid #b89a53;
+}
+p#wenzi1
+{
+    font-size: 20px;
+    line-height: 1.5;
+}
+section#zhongjian div.inner div.zhongjian
+{
+    width:1000px;
+    height: 150px;
+    background-color:antiquewhite;
+    float:left;
+}
+#zhongjian
+{
+    font-size: 20px;
+    text-align: center;/*文本居中显示*/
+    line-height: 1.5;
+}
+section#form div.inner div.form/*表单设置向左浮动*/
+{
+    margin-top: 50px;
+    width:1000px;
+    height: 150px;
+    background-color:rgb(192, 105, 213);
+    float:left;
+}
+section#form div.inner div#222
+{
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.5;
+}
+form {
+	display: table;/*设置表格形式*/
+	padding: 10px;
+	border: thin dotted #7e7e7e;
+	/*background-color: #e1ceb8;*/
+}
+
+form textarea 
+{
+	width: 830px;
+	height: 200px;
+    margin-left: auto;/*左右外边距自适应*/
+    margin-right: auto;
+}
+
+div.tableRow/*设置为表格行展示*/
+ {
+	display: table-row;
+}
+
+div.tableRow p
+ {
+	display: table-cell;/*设置为表格单元格形式*/
+	vertical-align: top;/*上下垂直对齐*/
+	padding: 3px;
+}
+div.tableRow p:first-child 
+{
+	text-align: right;/*文字靠右边展示*/
+}
+p.heading {
+	font-weight: bold;/*文字加粗*/
+}
+footer /*页脚区*/
+{
+    background-color: #675c47;
+    color:            #efe5d0;
+    text-align:       center;
+    padding:          5px;
+    margin:           20px;
+    width:100%;
+    height: 80px;
+    float:right;
+  }
+
+
